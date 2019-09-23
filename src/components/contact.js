@@ -11,31 +11,41 @@ class Contact extends Component {
         <div class="columns is-centered has-text-centered">
           <div class="column">
             <div class="icon is-medium">
-              <i class="fa fa-2x fa-envelope"></i>
+              <a href="mailto:webmaster@example.com">
+                <i class="fa fa-2x fa-envelope"></i>
+              </a>
             </div>
           </div>
           
           <div class="column">
             <span class="icon is-medium">
-              <i class="fa fa-2x fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/abhimanyu-tak-8b713363/">
+                <i class="fa fa-2x fa-linkedin"></i>
+              </a>
             </span>
           </div>
 
           <div class="column">
             <span class="icon is-medium">
-              <i class="fa fa-2x fa-github"></i>
+              <a href="https://github.com/AbhimanyuTak">
+                <i class="fa fa-2x fa-github"></i>
+              </a>
             </span>
           </div>
 
           <div class="column">
             <span class="icon is-medium">
-              <i class="fa fa-2x fa-angellist"></i>
+              <a href="https://angel.co/abhimanyutak">
+                <i class="fa fa-2x fa-angellist"></i>
+              </a>
             </span>
           </div>
 
           <div class="column">
             <span class="icon is-medium">
-              <i class="fa fa-2x fa-instagram"></i>
+              <a href="https://www.instagram.com/abhi.manyu">
+                <i class="fa fa-2x fa-instagram"></i>
+              </a>
             </span>
           </div>
         </div>
