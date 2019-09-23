@@ -5,7 +5,7 @@ class Skills extends Component {
   render() {
     return (
       <div className="container">
-        <h1 className="title">Skills</h1>
+        <h1 className="title is-4">Skills</h1>
         <div className="columns">
           <div className="column">
             <p>Backend - Node JS</p>

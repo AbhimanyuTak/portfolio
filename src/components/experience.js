@@ -9,7 +9,7 @@ class Experience extends Component {
   render() {
     return (
       <div className="container">
-        <h1 className="title">Experience</h1>
+        <h1 className="title is-4">Experience</h1>
         <div className="columns"> 
 
           <div className="column">

@@ -3,8 +3,9 @@ import Navbar from './components/navbar.js'
 import About from './components/about.js'
 import Experience from './components/experience.js'
 import Projects from './components/projects.js'
-import Contact from './components/contact.js'
 import Skills from './components/skills.js'
+import Contact from './components/contact.js'
+import Footer from './components/footer.js'
 import './App.css';
 
 class App extends Component {
@@ -33,20 +34,23 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar menuItems={menuItems}/>
-        <section id="about" className="section" ref={this.aboutRef}>
+        <section className="section hero" ref={this.aboutRef}>
           <About />
         </section>
-        <section id="skills" className="section" ref={this.skillsRef}>
+        <section className="section is-medium" ref={this.skillsRef}>
           <Skills />
         </section>
-        <section id="experience" className="section" ref={this.experienceRef}>
+        <section className="section is-medium" ref={this.experienceRef}>
           <Experience />
         </section>
-        <section id="projects" className="section" ref={this.projectsRef}>
+        <section className="section is-medium" ref={this.projectsRef}>
           <Projects />
         </section>
-        <section id="contact" className="section" ref={this.contactRef}>
+        <section className="section is-medium" ref={this.contactRef}>
           <Contact />
+        </section>
+        <section className="section">
+          <Footer />
         </section>
       </div>
     );

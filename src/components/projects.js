@@ -7,7 +7,7 @@ class Projects extends Component {
   render() {
     return (
       <div className="container">
-        <h1 className="title">Open Source Contribution</h1>
+        <h1 className="title is-4">Open Source Contribution</h1>
 
         <div className="box">
           <figure>
