@@ -4,12 +4,13 @@ class Footer extends Component {
   render() {
     return (
       <div className="container has-text-centered">
-        <p>Copyright © 2019 All rights reserved</p>
+        <p>© 2019 Abhimanyu Tak</p>
 
         <p>Made with 
           <span class="icon is-medium has-text-danger">
             <i class="fa fa-heart"></i>
-          </span>, React & Bulma by Abhimanyu</p>
+          </span>, React & Bulma
+        </p>
 
       </div>
     )

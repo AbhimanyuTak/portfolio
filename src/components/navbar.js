@@ -17,7 +17,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar is-fixed-top is-dark" role="navigation" aria-label="main navigation">
-        <div className={"navbar-brand"}>
+        <div className="navbar-brand">
           <div className="navbar-item">
             {/* <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" /> */}
             Abhimanyu Tak
@@ -31,7 +31,10 @@ class Navbar extends Component {
         </div>
       
         <div id="navbarBasicExample" className={"navbar-menu " + (this.state.active ? 'is-active': null)}>
-          <div className={"navbar-end"}>
+          <div className="navbar-end">
+            <a className="navbar-item" href="resume.pdf" download="abhimanyu_resume.pdf">
+              <a className="button is-info">Resumé</a>
+            </a>
             {this.props.menuItems}
           </div>
         </div>
