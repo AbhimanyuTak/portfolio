@@ -4,7 +4,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="container has-text-centered">
-        <p>Copyright ©2019 All rights reserved</p>
+        <p>Copyright © 2019 All rights reserved</p>
 
         <p>Made with 
           <span class="icon is-medium has-text-danger">

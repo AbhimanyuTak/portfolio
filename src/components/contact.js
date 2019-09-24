@@ -8,7 +8,7 @@ class Contact extends Component {
         <h1 className="title is-4">Contact Me</h1>
         <br />
         <br />
-        <div class="columns is-centered has-text-centered">
+        <div class="columns is-centered has-text-centered is-mobile">
           <div class="column">
             <div class="icon is-medium">
               <a href="mailto:webmaster@example.com">
@@ -35,16 +35,16 @@ class Contact extends Component {
 
           <div class="column">
             <span class="icon is-medium">
-              <a href="https://angel.co/abhimanyutak">
-                <i class="fa fa-2x fa-angellist"></i>
+              <a href="https://twitter.com/AbhimanyuTak">
+                <i class="fa fa-2x fa-twitter"></i>
               </a>
             </span>
           </div>
 
           <div class="column">
             <span class="icon is-medium">
-              <a href="https://www.instagram.com/abhi.manyu">
-                <i class="fa fa-2x fa-instagram"></i>
+              <a href="https://angel.co/abhimanyutak">
+                <i class="fa fa-2x fa-angellist"></i>
               </a>
             </span>
           </div>
