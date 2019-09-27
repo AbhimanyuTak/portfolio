@@ -16,11 +16,11 @@ class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar is-fixed-top is-dark" role="navigation" aria-label="main navigation">
+      <nav className="navbar is-fixed-top is-transparent is-spaced" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <div className="navbar-item">
             {/* <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" /> */}
-            Abhimanyu Tak
+            {/* Abhimanyu Tak */}
           </div>
       
           <a role="button" className={"navbar-burger burger " + (this.state.active ? 'is-active': null)} aria-label="menu" onClick={this.toggleActiveClass} aria-expanded="false" data-target="navbarBasicExample">
