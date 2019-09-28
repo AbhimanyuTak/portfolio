@@ -27,23 +27,45 @@ $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
 
+.progress-wrapper {
+  position: relative;
+}
+
+.progress-value {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: calc(1rem / 1.5);
+  line-height: 1rem;
+  font-weight: bold;
+}
+
+.progress.is-small+.progress-value {
+  font-size: calc(0.75rem / 1.5);
+  line-height: 0.75rem;
+}
+
+.progress.is-medium+.progress-value {
+  font-size: calc(1.25rem / 1.5);
+  line-height: 1.25rem;
+}
+
+.progress.is-large+.progress-value {
+  font-size: calc(1.5rem / 1.5);
+  line-height: 1.5rem;
+}
+
 // Import only what you need from Bulma
 @import '../node_modules/bulma/sass/utilities/_all.sass';
 @import '../node_modules/bulma/sass/base/_all.sass';
 
 // Elements
-@import '../node_modules/bulma/sass/elements/button.sass';
-@import '../node_modules/bulma/sass/elements/box.sass';
-@import '../node_modules/bulma/sass/elements/container.sass';
-// @import '../node_modules/bulma/sass/elements/form.sass';
-@import '../node_modules/bulma/sass/elements/title.sass';
-@import '../node_modules/bulma/sass/elements/icon.sass';
-@import '../node_modules/bulma/sass/elements/content.sass';
-@import '../node_modules/bulma/sass/elements/image.sass';
-@import '../node_modules/bulma/sass/elements/progress.sass';
+@import '../node_modules/bulma/sass/elements/_all.sass';
 
 // Components
 @import '../node_modules/bulma/sass/components/navbar.sass';
+@import '../node_modules/bulma/sass/components/modal.sass';
 
 // Layout
 @import '../node_modules/bulma/sass/layout/hero.sass';

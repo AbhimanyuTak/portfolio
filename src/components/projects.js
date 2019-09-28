@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import pysoyLogo from '../images/pysoy.png'
-// import '../App.css';
-
 
 class Projects extends Component {
   render() {

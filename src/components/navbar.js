@@ -33,7 +33,7 @@ class Navbar extends Component {
         <div id="navbarBasicExample" className={"navbar-menu " + (this.state.active ? 'is-active': null)}>
           <div className="navbar-end">
             <a className="navbar-item" href="resume.pdf" download="abhimanyu_resume.pdf">
-              <a className="button is-info">Resumé</a>
+              <div className="button is-info">Resumé</div>
             </a>
             {this.props.menuItems}
           </div>

@@ -7,8 +7,8 @@ class Footer extends Component {
         <p>© 2019 Abhimanyu Tak</p>
 
         <p>Made with 
-          <span class="icon is-medium has-text-danger">
-            <i class="fa fa-heart"></i>
+          <span className="icon is-medium has-text-danger">
+            <i className="fa fa-heart"></i>
           </span>, React & Bulma
         </p>
 

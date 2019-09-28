@@ -8,7 +8,7 @@ class Skills extends Component {
         <h1 className="title is-4">Skills</h1>
         <div className="columns">
           <div className="column">
-            <p>Backend - Node JS</p>
+            <p>Backend - Node JS, Express, Loopback</p>
           </div>
           <div className="column">
             <progress className="progress is-small" value="85" max="100">85%</progress>

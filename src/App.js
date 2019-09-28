@@ -40,13 +40,15 @@ class App extends Component {
         <section className="section is-medium" ref={this.skillsRef}>
           <Skills />
         </section>
-        <section className="section is-medium" ref={this.experienceRef}>
+        <section className="section" ref={this.experienceRef}>
+          <br />
+          <br />
           <Experience />
         </section>
         <section className="section is-medium" ref={this.projectsRef}>
           <Projects />
         </section>
-        <section className="section is-medium" ref={this.contactRef}>
+        <section className="section" ref={this.contactRef}>
           <Contact />
         </section>
         <section className="section">

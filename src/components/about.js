@@ -8,19 +8,22 @@ class About extends Component {
     return (
       <div className="hero-body">
         <div className="container">
-          <h1 className="title">
-            ABHIMANYU TAK 
-          </h1>
-          <h2 className="subtitle">
-            Full Stack Developer
-          </h2>
           <div className="columns is-vcentered">
-            <div className="column is-one-quarter">
-              <figure className="image is-1by1">
+            <div className="column is-one-fifth has-text-centered">
+              <figure className="image is-inline-block">
                 <img className="is-rounded" src={displayPicture} alt="Abhimanyu Tak" />
               </figure>
             </div>
-            <div className="column is-three-quarter">
+            {/* <div className="column is-one-fifth">
+            </div> */}
+            <div className="column is-fourth-fifth">
+              <h1 className="title">
+                ABHIMANYU TAK 
+              </h1>
+              <h2 className="subtitle">
+                Full Stack Developer
+              </h2>
+
               <p>
                 Hi, I am Abhimanyu. I build softwares for a living and is curious about life in general.
               </p>
