@@ -9,14 +9,13 @@ class About extends Component {
       <div className="hero-body">
         <div className="container">
           <div className="columns is-vcentered">
-            <div className="column is-one-fifth has-text-centered">
-              <figure className="image is-inline-block">
-                <img className="is-rounded" src={displayPicture} alt="Abhimanyu Tak" />
+            <div className="column is-one-quarter has-text-centered">
+              <figure className="is-inline-block">
+                <img className="mine-image" src={displayPicture} alt="Abhimanyu Tak" />
               </figure>
             </div>
-            {/* <div className="column is-one-fifth">
-            </div> */}
-            <div className="column is-fourth-fifth">
+
+            <div className="column is-three-quarters">
               <h1 className="title">
                 ABHIMANYU TAK 
               </h1>

@@ -56,7 +56,7 @@ class Experience extends Component {
         link: "https://www.slicepay.in", 
         title: "Software Developer",
         duration: "September 2015 - November 2016",
-        description: "Built the entire responsive website in AngularJS from scratch. Took care of all the frontend deployments and infrastructure needs. Build analytics dashboard and assisted in writing queries for analyzing user behavior"
+        description: "Built the entire responsive website in AngularJS from scratch. Took care of all the frontend deployments and infrastructure needs. Built analytics dashboard and assisted in writing queries for analyzing user behavior"
       },
     ];
 
@@ -87,50 +87,6 @@ class Experience extends Component {
         <h1 className="title is-4">Experience</h1>
         <div className="columns"> 
           {jobCards}
-          {/* <div className="column">
-            <div className="box has-text-centered" onClick={this.renderModal.bind(this, 'fsdf', 'fdsfsd', 'fsdfasfd')}>
-              <figure className="image is-64x64 is-inline-block">
-                <img src={rentomojoLogo} alt="Rentomojo" />
-              </figure>
-
-              <div className="content">
-                <p>
-                  <strong>RentoMojo</strong>
-                </p>
-                <div>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="column">
-            <div className="box has-text-centered">
-              <figure className="image is-64x64 is-inline-block">
-                <img className="is-rounded" src={slicepayLogo} alt="Slicepay" />
-              </figure>
-
-              <div className="content">
-                <p>
-                  <strong>SlicePay</strong>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="column">
-            <div className="box has-text-centered">
-              <figure className="image is-64x64 is-inline-block">
-                <img className="is-rounded" src={arzoooLogo} alt="HomeYantra" />
-              </figure>
-
-              <div className="content">
-                <p>
-                  <strong>HomeYantra/ Arzooo</strong>
-                </p>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
     )
