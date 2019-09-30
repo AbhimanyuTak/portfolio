@@ -4,7 +4,7 @@ class ExperienceModal extends Component {
   render() {
     return (
       <div className={"modal " + (this.props.active ? 'is-active' : null)} >
-        <div className="modal-background"></div>
+        <div className="modal-background" onClick={this.props.onClose}></div>
         <div className="modal-card">
           <header className="modal-card-head">
             <p className="modal-card-title">{this.props.company}</p>
